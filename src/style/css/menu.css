@@ -1,0 +1,22 @@
+.App .menu {
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+
+.App .menu .menu-group a {
+    font-weight: 500;
+    font-size: 16.8px;
+    color: #666;
+    padding: 4px 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.App .menu .menu-group .menu-item a {
+    font-size: 14px;
+}
+
+.App .menu .menu-group .menu-item.active a {
+    font-weight: 700;
+}
